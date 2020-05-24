@@ -5,27 +5,38 @@ permalink: /about
 ---
 
 Language agnostic polyglot software developer, easily adaptable to different technologies
-with experience in Ruby, Go lang, Java and JavaScript across Backend, Full stack and mobile 
-development. Experience span across various domains as well.
+with experience in various technologies and various domains.
 
 Strong believer in acquiring knowledge of paradigms instead of languages. 
 
-Skills:
-Ever learner
-Critical quesioning
-Constulting
-Programming
-Design thinking
-Problem solving
+**Skills**:
+* Ever learner
+* Critical quesioning
+* Constulting
+* Programming
+* Design thinking
+* Problem solving
 
-Laguages used:
-Ruby, Golang, Java, Javascript, Dart, Kotlin and Swift
+**Laguages used**:
+* Ruby
+* Golang
+* Java
+* Javascript
+* Dart
+* Kotlin 
+* Swift
 
-Frameworks used:
-Ruby on Rails, KrakenD, Spring boot, Flutter, Android SDK, ReactJs and iOS development
+**Frameworks used**:
+* Ruby on Rails
+* KrakenD
+* Spring boot
+* Flutter
+* Android SDK
+* ReactJs
+* iOS development
 
-Experience:
-Senior Backend Developer in Simpl
-Senior Applicaiton Developer in ThoughtWorks
-Android Developer in HealthifyMe
-Software engineer in Urjanet
+**Experience**:
+* Senior Backend Developer in Simpl
+* Senior Applicaiton Developer in ThoughtWorks
+* Android Developer in HealthifyMe
+* Software engineer in Urjanet
