@@ -1,1 +1,18 @@
-theme: jekyll-theme-cayman
+# Setup
+title:        Abdul Rahman K - Portfolio/Blog
+tagline:      Fool's blabbering, A website to share my learnings.
+baseurl:      ""
+paginate:     1
+locale:       "en"
+
+# About/contact
+author:
+  name:       Abdul Rahman K
+  url:        https://abdulrahmank.github.io
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
