@@ -1,6 +1,6 @@
 # Setup
-title:        Abdul Rahman K - Portfolio/Blog
-tagline:      Fool's blabbering, A website to share my learnings.
+title:        Abdul Rahman K - Blogs
+tagline:      Single source of truth of all my blogs (From Medium,LinkedIn,etc)
 baseurl:      ""
 paginate:     1
 locale:       "en"
