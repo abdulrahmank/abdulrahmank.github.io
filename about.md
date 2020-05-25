@@ -10,7 +10,7 @@ with experience in various technologies and various domains.
 Strong believer in acquiring knowledge of paradigms instead of languages. 
 
 **Skills**:
-* Ever learner
+* Quickly learning
 * Critical quesioning
 * Constulting
 * Programming
@@ -36,7 +36,7 @@ Strong believer in acquiring knowledge of paradigms instead of languages.
 * iOS development
 
 **Experience**:
-* Senior Backend Developer in Simpl
-* Senior Applicaiton Developer in ThoughtWorks
-* Android Developer in HealthifyMe
-* Software engineer in Urjanet
+* Senior Backend Developer in Simpl (Jun 2019 - present)
+* Senior Applicaiton Developer in ThoughtWorks (Jun 2016 - Jun2019)
+* Android Developer in HealthifyMe (Feb 2016 - May 2016)
+* Software engineer in Urjanet (Mar 2015 - Feb 2016)
