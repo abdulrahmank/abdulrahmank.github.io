@@ -35,7 +35,7 @@ post_topics:
     posts:
       - date: Sep 28, 2019
         url: https://medium.com/@kadkab.abdul/simplify-getting-started-978cfeece8d
-        title: Simplify “Getting started”
+        title: Simplify “Getting started” using docker
       - date: Sep 23, 2019
         url: https://medium.com/@kadkab.abdul/unblocking-development-using-nginx-29b729301848
         title: Unblocking development using Nginx
