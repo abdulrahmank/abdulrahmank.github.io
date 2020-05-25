@@ -31,7 +31,7 @@ Strong believer in acquiring knowledge of paradigms instead of languages.
 * KrakenD
 * Spring boot
 * Flutter
-* Android SDK
+* Android app development
 * ReactJs
 * iOS development
 
