@@ -8,7 +8,7 @@ locale:       "en"
 # About/contact
 author:
   name:       Abdul Rahman K
-  url:        https://abdulrahmank.github.io
+  url:        https://abdulrahmank.github.io/about
 
 # Gems
 gems:
@@ -22,7 +22,7 @@ post_topics:
   - name: Programming
     posts:
       - date: May 22, 2020
-        url: https://android.jlelse.eu/know-about-android-code-that-is-solid-part-ii-7e41989f83b3
+        url: https://medium.com/swlh/understanding-ruby-eigen-class-as-a-java-developer-1dd20d3cd725
         title: Understanding Ruby Eigen class as a Java Developer
       - date: May 25, 2020
         url: /main/2020/03/24/creating-bff-using-krakend.html
