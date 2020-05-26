@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "Objects are everything in ruby"
+description: OOP basics. Describes how everything is object in ruby. Makes us master ruby on rails.
 date:   2020-03-26 00:00:00 -0000
 categories: main
 ---
@@ -55,7 +56,7 @@ From the above example, few learning:
       end
    end
    ``` 
-   is similar to 
+   is similar to:
    ```ruby
    obj = SomeClass.new
    def obj.some_mehtod do 
