@@ -1,0 +1,25 @@
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class AClass
+   def method1
+     puts 'Method1 is present'
+   end
+   def self.method2
+     puts 'Method2 is present'
+   end
+end
+AClass.method1 # undefined method `method1'
+AClass.method2 # prints 'Method2 is present'
+obj = AClass.new
+def obj.method1
+   puts 'Method1 is present, modified by obj'
+end
+def obj.method3
+   puts 'Method3 is present'
+end
+obj.method3 # prints 'Method3 is present'
+obj.methods
+# =&gt;  [:method3, :method1,....]
+AClass.methods
+# =&gt; [:method2, ...]
+AClass.new.methods
+# =&gt; [:method1, ...]
+</code></pre></div></div>

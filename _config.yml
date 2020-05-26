@@ -21,6 +21,9 @@ markdown: kramdown
 post_topics:
   - name: Programming
     posts:
+      - date: May 26, 2020
+        url: /main/2020/03/26/ruby-objects-are-everything.html
+        title: Objects are everything in ruby
       - date: May 22, 2020
         url: https://medium.com/swlh/understanding-ruby-eigen-class-as-a-java-developer-1dd20d3cd725
         title: Understanding Ruby Eigen class as a Java Developer
