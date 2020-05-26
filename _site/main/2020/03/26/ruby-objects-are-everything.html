@@ -25,60 +25,62 @@
 
     <section class="main-content">
 
-      <p><strong>Objects are everything in ruby</strong></p>
+      <h1 id="objects-are-everything-in-ruby">Objects are everything in ruby</h1>
 
 <p>Consider the following lines:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   class AClass
-      def method1
-       puts 'Method1 is present'
-      end
-      def self.method2
-       puts 'Method2 is present'
-      end
-   end
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   <span class="k">class</span> <span class="nc">AClass</span>
+      <span class="k">def</span> <span class="nf">method1</span>
+       <span class="nb">puts</span> <span class="s1">'Method1 is present'</span>
+      <span class="k">end</span>
+      <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">method2</span>
+       <span class="nb">puts</span> <span class="s1">'Method2 is present'</span>
+      <span class="k">end</span>
+   <span class="k">end</span>
 
-   AClass.method1 # undefined method `method1'
-   AClass.method2 # prints 'Method2 is present'
+   <span class="no">AClass</span><span class="p">.</span><span class="nf">method1</span> <span class="c1"># undefined method `method1'</span>
+   <span class="no">AClass</span><span class="p">.</span><span class="nf">method2</span> <span class="c1"># prints 'Method2 is present'</span>
 
-   obj = AClass.new
+   <span class="n">obj</span> <span class="o">=</span> <span class="no">AClass</span><span class="p">.</span><span class="nf">new</span>
    
-   def obj.method1
-      puts 'Method1 is present, modified by obj'
-   end
+   <span class="k">def</span> <span class="nc">obj</span><span class="o">.</span><span class="nf">method1</span>
+      <span class="nb">puts</span> <span class="s1">'Method1 is present, modified by obj'</span>
+   <span class="k">end</span>
 
-   def obj.method3
-      puts 'Method3 is present'
-   end
+   <span class="k">def</span> <span class="nc">obj</span><span class="o">.</span><span class="nf">method3</span>
+      <span class="nb">puts</span> <span class="s1">'Method3 is present'</span>
+   <span class="k">end</span>
 
-   obj.method3 # prints 'Method3 is present'
+   <span class="n">obj</span><span class="p">.</span><span class="nf">method3</span> <span class="c1"># prints 'Method3 is present'</span>
    
-   obj.methods
-   # =&gt;  [:method3, :method1,....]
+   <span class="n">obj</span><span class="p">.</span><span class="nf">methods</span>
+   <span class="c1"># =&gt;  [:method3, :method1,....]</span>
    
-   AClass.methods
-   # =&gt; [:method2, ...]
+   <span class="no">AClass</span><span class="p">.</span><span class="nf">methods</span>
+   <span class="c1"># =&gt; [:method2, ...]</span>
    
-   AClass.new.methods
-   # =&gt; [:method1, ...]
+   <span class="no">AClass</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">methods</span>
+   <span class="c1"># =&gt; [:method1, ...]</span>
 
-   AClass.singleton_methods
-   # =&gt; [:method2] 
+   <span class="no">AClass</span><span class="p">.</span><span class="nf">singleton_methods</span>
+   <span class="c1"># =&gt; [:method2] </span>
 </code></pre></div></div>
 
 <p>From the above example, few learning:</p>
 <ol>
-  <li>It’s clear that an object can override a class method implementation</li>
   <li>
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class SomeClass
-   def self.some_method do 
-   end
-end
+    <p>It’s clear that an object can override a class method implementation</p>
+  </li>
+  <li>
+    <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">SomeClass</span>
+   <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">some_method</span> <span class="k">do</span> 
+   <span class="k">end</span>
+<span class="k">end</span>
 </code></pre></div>    </div>
     <p>is similar to</p>
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>obj = SomeClass.new
-def obj.some_mehtod do 
-end
+    <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">obj</span> <span class="o">=</span> <span class="no">SomeClass</span><span class="p">.</span><span class="nf">new</span>
+<span class="k">def</span> <span class="nc">obj</span><span class="o">.</span><span class="nf">some_mehtod</span> <span class="k">do</span> 
+<span class="k">end</span>
 </code></pre></div>    </div>
     <p>so that we can call <code class="highlighter-rouge">obj.some_method</code>. in the above example we can call <code class="highlighter-rouge">SomeClass.some_method</code>.</p>
 

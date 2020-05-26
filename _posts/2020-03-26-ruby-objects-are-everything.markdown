@@ -4,11 +4,11 @@ title:  "Objects are everything in ruby"
 date:   2020-03-26 00:00:00 -0000
 categories: main
 ---
-**Objects are everything in ruby**
+# Objects are everything in ruby
 
 Consider the following lines:
 
-   ```
+   ```ruby
    class AClass
       def method1
        puts 'Method1 is present'
@@ -48,14 +48,15 @@ Consider the following lines:
 
 From the above example, few learning:
 1. It's clear that an object can override a class method implementation
-2. ```
+
+2. ```ruby
    class SomeClass
       def self.some_method do 
       end
    end
    ``` 
    is similar to 
-   ```
+   ```ruby
    obj = SomeClass.new
    def obj.some_mehtod do 
    end
