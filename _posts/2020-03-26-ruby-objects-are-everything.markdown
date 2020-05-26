@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Objects are everything in ruby"
-description: OOP basics. Describes how everything is object in ruby. Makes us master ruby on rails.
+description: OOP basics. Describes how everything is object in ruby. Makes us master ruby on rails. Explained using examples.
 date:   2020-03-26 00:00:00 -0000
 categories: main
 ---
