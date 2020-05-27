@@ -1,11 +1,11 @@
 ---
 layout: default
-title:  "Objects are everything in ruby"
-description: OOP basics. Describes how everything is object in ruby. Makes us master ruby on rails. Explained using examples.
+title:  "Static methods in ruby"
+description: If you are picking up ruby and having knowledge from a static typed language, understanding static methods will be tricky. This blog explains it with examples.
 date:   2020-03-26 00:00:00 -0000
 categories: main
 ---
-# Objects are everything in ruby
+# Static methods in ruby, explained:
 
 Consider the following lines:
 
@@ -47,7 +47,7 @@ Consider the following lines:
    # => [:method2] 
    ```
 
-From the above example, few learning:
+From the above example, few learnings:
 1. It's clear that an object can override a class method implementation
 
 2. ```ruby
@@ -64,4 +64,4 @@ From the above example, few learning:
    ```
    so that we can call `obj.some_method`. in the above example we can call `SomeClass.some_method`.
    
-   Thus eventhough  `SomeClass.some_method` looks like calling a static method, It's not. What is actually happening is the singleton object of the class is called. Every class has a singleton object in ruby.
+   Thus eventhough  `SomeClass.some_method` looks like calling a static method, It's not. What is actually happening is the singleton object of the class is called. *Every class has a singleton object in ruby.*

@@ -26,7 +26,7 @@ post_topics:
     posts:
       - date: May 26, 2020
         url: /main/2020/03/26/ruby-objects-are-everything.html
-        title: Objects are everything in ruby
+        title: Static methods in ruby, explained
       - date: May 25, 2020
         url: /main/2020/03/24/creating-bff-using-krakend.html
         title: Creating a BFF(backend-for-frontend) using KrakenD
