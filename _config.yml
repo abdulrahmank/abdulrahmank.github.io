@@ -22,15 +22,24 @@ markdown: kramdown
 
 # Blogs
 post_topics:
+  - name: Architecture
+    posts:
+      - date: Yet to publish
+        url: #
+        title: Amazon ECS quick brief
+      - date: Yet to publish
+        url: #
+        title: How we migrated 190 million records from postgres to Dynamodb and Why?
+
   - name: Programming
     posts:
       - date: May 26, 2020
         url: /main/2020/03/26/ruby-objects-are-everything.html
         title: Static methods in ruby, explained
-      - date: May 25, 2020
+      - date: Yet to publish
         url: /main/2020/03/24/creating-bff-using-krakend.html
         title: Creating a BFF(backend-for-frontend) using KrakenD
-      - date: May 25, 2020
+      - date: Yet to publish
         url: /main/2020/03/24/includes-vs-eager-loading-copy.html
         title: "ActiveRecord: includes, eager_load -- when not to use"
       - date: May 22, 2020
@@ -49,8 +58,20 @@ post_topics:
         url: https://medium.com/@kadkab.abdul/ansible-for-beginners-2cf3b27abe3b
         title: Ansible for Beginners
 
-  - name: Android development
+  - name: Mobile development
     posts:
+      - date: Yet to publish
+        url: #
+        title: TDD in Flutter
+      - date: Yet to publish
+        url: #
+        title: TDD in Android, using MVP
+      - date: Yet to publish
+        url: #
+        title: Undertanding iOS development as an Android developer
+      - date: Yet to publish
+        url: #
+        title: TDD in iOS, using MVVM
       - date: May 28, 2018
         url: https://android.jlelse.eu/know-about-android-code-that-is-solid-part-ii-7e41989f83b3
         title: Android O — SOLID

@@ -4,6 +4,10 @@
 
 .nav-bar a { display: inline; color: #FFFFFF; }
 
+.nav-bar li::before { content: "|" } 
+
+.nav-bar li:first-child::before { content: "" } 
+
 .highlight table td { padding: 5px; }
 
 .highlight table pre { margin: 0; }
