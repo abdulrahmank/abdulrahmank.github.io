@@ -34,7 +34,7 @@ post_topics:
   - name: Programming
     posts:
       - date: May 26, 2020
-        url: /main/2020/03/26/ruby-objects-are-everything.html
+        url: /main/2020/03/26/static-methods-in-ruby.html
         title: Static methods in ruby, explained
       - date: Yet to publish
         url: /main/2020/03/24/creating-bff-using-krakend.html

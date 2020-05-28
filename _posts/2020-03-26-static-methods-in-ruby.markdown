@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Static methods in ruby"
-description: If you are picking up ruby and having knowledge from a static typed language, understanding static methods will be tricky. This blog explains it with examples.
+description: Explaining why static methods are not static methods, but rather singleton methods using example.
 date:   2020-03-26 00:00:00 -0000
 categories: main
 ---
