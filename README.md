@@ -1,4 +1,4 @@
-#**Abul Rahman K's Blog**
+# Abul Rahman K's Blog
 
 This website theme is customised on top of https://github.com/pietromenna/jekyll-cayman-theme.
 
