@@ -4,7 +4,7 @@ This website theme is customised on top of https://github.com/pietromenna/jekyll
 
 Please visit the website at: https://abdulrahmank.github.io
 
-# Customization done:
+### Customization done:
 1. As opposed to Jekyll Cayman theme, where we can add posts only against the date it got published, 
 This website has been customised to group posts under common high level topics.
 
