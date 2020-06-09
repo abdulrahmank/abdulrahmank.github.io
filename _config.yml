@@ -78,3 +78,13 @@ post_topics:
       - date: May 3, 2018
         url: https://android.jlelse.eu/android-s-srp-535402251c1b
         title: Android S — SOLID
+
+projects:
+  - name: Retail Biddah
+    phase: In development
+    url: /
+    description: A POS solution that aims to reduce the waiting time in queues in super market.
+  - name: Glad tidel
+    phase: Ideation
+    url: /
+    description: A mobile app to notify users about the upcoming/ongoing prayer in the masjid that is near the user.

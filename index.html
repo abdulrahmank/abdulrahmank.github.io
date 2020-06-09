@@ -17,3 +17,22 @@ title: {{ site.name }}
     {% endfor %}
   </ul>
 </div>
+
+<div id="home">
+  <h1>Projects</h1>
+  <ul class="posts">
+    {% for project in site.projects %}
+    <li><span><a href="{{ project.url }}">{{ project.name }}</a></span>
+      <ul class="posts">
+        <li>
+          <label for="phase"> Phase: </label>
+          <span id="phase">{{ project.phase }}</span> <br/>
+           <span>
+             {{ post.description }}
+           </span>
+        </li>
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
