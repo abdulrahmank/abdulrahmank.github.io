@@ -79,6 +79,12 @@ post_topics:
         url: https://android.jlelse.eu/android-s-srp-535402251c1b
         title: Android S — SOLID
 
+  - name: Software development
+    posts:
+      - date: June 14, 2020
+        url: /main/2020/06/14/being-a-well-balanced-developer.html
+        title: Being a well balanced developer - part 1
+
 projects:
   - name: Retail Biddah
     phase: In development
