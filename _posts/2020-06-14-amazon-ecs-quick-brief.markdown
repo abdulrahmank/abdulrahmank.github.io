@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Amazon ECS quick intro"
-description: Article contains a brief introduction about the entities involved in Amazon ecs. This also includes a brief comparison between kubernetes and amazon ecs, difference between initContainers and Container ordering.
+description: Article contains a brief introduction about the entities involved in Amazon ecs. This also includes a brief comparison between kubernetes and amazon ecs, difference between initContainers and Container ordering. Gives a clear picture of aws ecs init container availability similar to kubernetes.
 date:   2020-06-14 00:00:00 -0000
 categories: main
 ---
