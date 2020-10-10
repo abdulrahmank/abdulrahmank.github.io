@@ -87,9 +87,9 @@ post_topics:
 
 projects:
   - name: Retail Biddah
-    phase: In development
-    url: /
-    description: A POS solution that aims to reduce the waiting time in queues in super market.
+    phase: Productionalised and In development
+    url: /main/2020/10/10/retail-biddah.html
+    description: Bringing innovation to retail.
   - name: Glad tidel
     phase: Ideation
     url: /
