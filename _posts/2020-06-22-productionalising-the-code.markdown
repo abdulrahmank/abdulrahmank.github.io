@@ -41,4 +41,6 @@ Make sure the CD is capable of catering to these needs. And perform the required
 
 8. Above all try to create lean features by scoping them well. It's a rule of a thumb that a feature that makes 10 changes to the product will take more time than the feature that makes 3 changes to the product.
 
+9. Finally, Make sure the code is verisioned well and releases can be tagged easily, this will be very handy in circumstances when new release is not working well and have to revert the release to older one. This comes free if the CD pipeline is configured right.
+
 As an objective try to reduce the **_code to cash_** time. Hope this article showed some light on how to see your code running in production and thus get a feeling of satisfaction and accomplishment.
