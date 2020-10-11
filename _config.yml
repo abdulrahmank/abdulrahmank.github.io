@@ -8,7 +8,7 @@ locale:       "en"
 # About/contact
 author:
   name:       Abdul Rahman K
-  url:        https://abdulrahmank.github.io/about
+  url:        https://github.com/abdulrahmank
 
 # Gems
 gems:
@@ -31,7 +31,7 @@ post_topics:
         url: #
         title: How we migrated 190 million records from postgres to Dynamodb and Why?
       - date: Yet to publish
-        url: /main/2020/03/24/creating-bff-using-krakend.html
+        url: #
         title: Creating a BFF(backend-for-frontend) using KrakenD
 
   - name: Programming
@@ -60,18 +60,6 @@ post_topics:
 
   - name: Mobile development
     posts:
-      - date: Yet to publish
-        url: #
-        title: TDD in Flutter
-      - date: Yet to publish
-        url: #
-        title: TDD in Android, using MVP
-      - date: Yet to publish
-        url: #
-        title: Undertanding iOS development as an Android developer
-      - date: Yet to publish
-        url: #
-        title: TDD in iOS, using MVVM
       - date: May 28, 2018
         url: https://android.jlelse.eu/know-about-android-code-that-is-solid-part-ii-7e41989f83b3
         title: Android O — SOLID
@@ -83,14 +71,13 @@ post_topics:
     posts:
       - date: June 14, 2020
         url: /main/2020/06/14/being-a-well-balanced-developer.html
-        title: Being a well balanced developer - part 1
+        title: Being a well balanced developer - part 1. Embrace Questioning.
+      - date: June 22, 2020
+        url: /main/2020/06/22/productionalising-the-code.html
+        title: Being a well balanced developer - part 2. Embrace Devops.
 
 projects:
   - name: Retail Biddah
     phase: Productionalised and In development
     url: /main/2020/10/10/retail-biddah.html
     description: Bringing innovation to retail.
-  - name: Glad tidel
-    phase: Ideation
-    url: /
-    description: A mobile app to notify users about the upcoming/ongoing prayer in the masjid that is near the user.

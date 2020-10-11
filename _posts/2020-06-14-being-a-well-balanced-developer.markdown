@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Being a well balanced developer"
-description: Sharing my views on how to be a well balanced developer - Part 1.
+description: Sharing my views on how to be a well balanced developer - Part 1. Embrace questioning.
 date:   2020-06-14 00:00:00 -0000
 categories: main
 ---
