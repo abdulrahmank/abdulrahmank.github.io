@@ -14,7 +14,7 @@ There are lots of Point Of Sale(POS) applications available. Yet there are lot o
 
 3. The **maintenance is high**: Most softwares require merchants to pay monthly subscription/yearly subscription. Since most POS's work on windows machine, and since it'll be very difficult for the merchants to keep the machine in the same place, this movement will cause systems to fail and ofter require the merchnats to call the system provider for maintanence, data may even get corrupted.
 
-# **Retial biddah**:
+# **Retail biddah**:
 
 Retail biddah is a product suite that tries to be different than the current available POS's. All the products under the suite is developed to be able to run in any platform, with emphasize on Android OS. Choice of emphasize on android os stems from the popularity of Android.
 
