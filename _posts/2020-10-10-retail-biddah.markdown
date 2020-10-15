@@ -28,7 +28,7 @@ for the first hand users.
 
 ![bill it logo](/images/billit_logo.png) 
 
-**Bill.It.**, a product that shop keepers can use to provide receipts to the customer allows the shop keepers to add a product to the bill in 5 different ways:
+**Bill.It.**, a product that shop keepers can use to provide receipts to the customer, allows the shop keepers to add a product to the bill in 5 different ways:
 - Using barcode scanner gun
 - Using android phone's camera
 - By searching for the product by inputing a search term
@@ -70,7 +70,7 @@ No developments so far.
 
 #### Know.It.
 
-Product to enable shop keepres to maintain their customer preferences and details to service them better.
+Product to enable shop keepers to maintain their customer preferences and details to service them better.
 
 **Activities**:
 No developments so far.
