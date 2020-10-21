@@ -69,9 +69,9 @@ This can reduce the number of times the items are touched by others. This also w
 **Activities**:
 No developments so far.
 
-#### Stock.It.
+#### Order.It.
     
-Product to enable shop keepers to maintain their inventory and get insights on what to buy what not to buy.
+Product to enable customers to order from the near by shop that has embraced retail biddah product suite.
 
 **Activities**:
 No developments so far.
@@ -83,16 +83,23 @@ Product to enable shop keepers to maintain their customer preferences and detail
 **Activities**:
 No developments so far.
 
-#### Order.It.
+#### Add.It.
     
-Product to enable customers to order from the near by shop that has embraced retail biddah product suite.
+Product to let shop keepers to have their own decentralised inventory. They can either choose cloud or local storage with backup.
+
+**Activities**:
+No developments so far.
+
+#### Stock.It.
+    
+Product to enable shop keepers to maintain their inventory and get insights on what to buy what not to buy.
 
 **Activities**:
 No developments so far.
 
 #### Manage.It.
 
-Product to enable shop keepers to manage their shop from their home.
+Product to enable shop keepers to manage their shop from their home. Gives shop keeper real time information about the stock, incude integration with CCTV.
 
 **Activities**:
 No developments so far.
