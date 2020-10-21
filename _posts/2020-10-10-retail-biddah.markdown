@@ -61,6 +61,14 @@ __Next milestone__:
 - Multiple merchants support.
 - Add regional language support.
 
+#### Let.Them.Bill.
+
+Product to let the users bill the porducts they have in their basket and submit the bill to the cashier, who can then verify the items and approve the bill.
+This can reduce the number of times the items are touched by others. This also will reduce the waiting time in queue.
+
+**Activities**:
+No developments so far.
+
 #### Stock.It.
     
 Product to enable shop keepers to maintain their inventory and get insights on what to buy what not to buy.
@@ -68,7 +76,7 @@ Product to enable shop keepers to maintain their inventory and get insights on w
 **Activities**:
 No developments so far.
 
-#### Know.It.
+#### Know.Them.
 
 Product to enable shop keepers to maintain their customer preferences and details to service them better.
 
