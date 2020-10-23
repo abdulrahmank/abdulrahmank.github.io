@@ -45,26 +45,21 @@ own an android device, It just takes few clicks to download the app and getting 
 
 Merchants will be billed based on the maintainance cost along with some service charges.
 
-## **Products**:
+## **Products under the suite**:
 
-#### Bill.It.
-Product to enable shop keepers to bill their customers with 2000+ products in the product directory.
-
-#### Let.Them.Bill.
-Product to let the users bill the porducts they have in their basket and submit the bill to the cashier, who can then verify the items and approve the bill.
-This can reduce the number of times the items are touched by others. This also will reduce the waiting time in queue.
-
-#### Order.It.
-Product to enable customers to order from the near by shop that has embraced retail biddah product suite.
-
-#### Know.Them.
-Product to enable shop keepers to maintain their customer preferences and details to service them better.
-
-#### Add.It.    
-Product to let shop keepers to have their own decentralised inventory. They can either choose cloud or local storage with backup.
-
-#### Stock.It.    
-Product to enable shop keepers to maintain their inventory and get insights on what to buy what not to buy.
-
-#### Manage.It.
-Product to enable shop keepers to manage their shop from their home. Gives shop keeper real time information about the stock, incude integration with CCTV.
+Product name| What for?
+------------|------------
+Bill.It. | To enable shop keepers to bill their customers with 2000+ products in the product directory.
+---------|------------------------------------------------------------------------------------------------------
+Let.Them.Bill. | To allow the users bill the porducts they have in their basket and submit the bill to the cashier, who can then verify the items and approve the bill. This can reduce the number of times the items are touched by others. This also will reduce the waiting time in queue.
+----------------|------------------------------------------------------------------------------------------------
+Order.It. | To let customers order from the near by shop that has embraced retail biddah product suite.
+----------|---------------------------------------------------------------------------------------------------------
+Know.Them. | To store and maintain their customer preferences and details to service them better.
+-----------|--------------------------------------------------------------------------------------------------------
+Add.It. | To create own product directory and inventory. They can either choose cloud or local storage with backup.
+--------|-----------------------------------------------------------------------------------------------------------
+Stock.It. | To add stock details of products. So as to get notification on empty shelf.
+--------|-----------------------------------------------------------------------------------------------------------
+Manage.It. | To manage shop from home. Gives shop keeper real time information about the stock, incude integration with CCTV, empowers users with information on stock details of products.
+------------|-------------------------------------------------------------------------------------------------------
