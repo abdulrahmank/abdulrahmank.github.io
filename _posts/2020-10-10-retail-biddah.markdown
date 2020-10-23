@@ -48,58 +48,23 @@ Merchants will be billed based on the maintainance cost along with some service 
 ## **Products**:
 
 #### Bill.It.
-
 Product to enable shop keepers to bill their customers with 2000+ products in the product directory.
 
-**Activities**:
-
-__Developments so far__: 
-- After multiple MVP's a bug free working product has been delivered and is in use in a self owned shop
-- The product is optimised to work in SUNMI POS.
-
-__Next milestone__:
-- Multiple merchants support.
-- Add regional language support.
-
 #### Let.Them.Bill.
-
 Product to let the users bill the porducts they have in their basket and submit the bill to the cashier, who can then verify the items and approve the bill.
 This can reduce the number of times the items are touched by others. This also will reduce the waiting time in queue.
 
-**Activities**:
-No developments so far.
-
 #### Order.It.
-    
 Product to enable customers to order from the near by shop that has embraced retail biddah product suite.
 
-**Activities**:
-No developments so far.
-
 #### Know.Them.
-
 Product to enable shop keepers to maintain their customer preferences and details to service them better.
 
-**Activities**:
-No developments so far.
-
-#### Add.It.
-    
+#### Add.It.    
 Product to let shop keepers to have their own decentralised inventory. They can either choose cloud or local storage with backup.
 
-**Activities**:
-No developments so far.
-
-#### Stock.It.
-    
+#### Stock.It.    
 Product to enable shop keepers to maintain their inventory and get insights on what to buy what not to buy.
 
-**Activities**:
-No developments so far.
-
 #### Manage.It.
-
 Product to enable shop keepers to manage their shop from their home. Gives shop keeper real time information about the stock, incude integration with CCTV.
-
-**Activities**:
-No developments so far.
