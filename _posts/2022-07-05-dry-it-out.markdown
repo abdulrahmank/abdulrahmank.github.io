@@ -1,0 +1,119 @@
+
+
+DRY, Don't Repeat Yourself is a very important principle to be followed while developing your product. But doing it right is something we need to be careful about.
+
+One of the obvious problem if your code not isn't DRY is, any change in one place should be done multiple times, in order to fix the same everywhere.
+
+In OOPS the principle of inheritance, most would say is for code re-use. Actually, the answer is NO, the principle of inheritance is for Generalization.
+
+**For Instance:**
+
+Horse can move, Similarly Car can also move, This doesn't mean Car can extend Horse or Horse can extend Car.
+
+P.S. On a side note, we can have dependency injection by having an Moveable interface and implementing the interface (Realization).
+
+From the above example, what I'm deriving is that: Concept of inheritance is for Generalization, and code re-use is a by product.
+
+Coming back to DRY, When we say don't repeat yourself, we should not look at the code as a mere piece of code, but with the functionality it represents, So DRY mean Don't Repeat the Functionality again and again.
+
+If we Just use DRY to couple same lines of code together, we end up with High coupling in the code and thus the code complexity would increase.
+
+Let's understand this by an Example:
+
+Problem statement: Consider you are building a product "InvoicingProduct" where merchants can subscribe to your product and merchants can subscribe to other other merchants as well. When a subscription is successful you need to create an invoice, similarly when a merchant subscribes to another merchant we need to create an invoice. Both the subscription to the platform invoice and merchant to merchant invoice has the same layout when rendered in PDF format.
+
+Solution: Here there are actually two types of invoices, subscription invoice where seller is the InvoicingProduct and buyer is the merchant that subscribed to the product. The second type is where buyer is a different merchant and seller is a different merchant. All the merchants that are subscribed will be stored in data base.
+
+Consider this code:
+```
+class Invoice
+ 
+# type of seller and buyer are Merchant (Database model)
+ def initialize(seller, buyer)
+ 
+   @seller = seller
+   @buyer = buyer
+ 
+ end
+  
+ def to_pdf
+    
+   PDFBuilder.build(seller: @seller, buyer: @buyer)
+ 
+ end
+
+end
+
+
+def print_subscription_invoice(merchant_id)
+
+   seller = OpenStruct.new(name: 'InvoicingProduct', vat: '1231231')
+   buyer = Merchant.find(merchant_id)
+   Invoice(seller, merchant).to_pdf
+
+end
+
+def print_merchant_to_merchant_invoice(buyer_id, seller_id)
+
+   buyer = Merchant.find(buyer_id)
+   seller = Merchant.find(buyer_id)
+   Invoice(seller, buyer).to_pdf  
+
+end
+```
+In the above example, if you observe in function `print_subscription_invoice` we are force fitting the seller object in order to Re-use the Invoice class. Instead cleaner code would be:
+```
+class Invoice
+ 
+# type of seller and buyer are Merchant (Database model)
+ def initialize(seller, buyer)
+ 
+   @seller = seller
+   @buyer = buyer
+ 
+ end
+  
+ def to_pdf
+    
+   PDFBuilder.build(seller: @seller, buyer: @buyer)
+ 
+ end
+
+end
+
+class SubscriptionInvoice
+
+   def initialize(buyer)
+
+     @buyer = buyer
+
+   end
+
+   def to_pdf
+
+     PDFBuilder.build(name: 'Invoicing Product', vat: '1231231', buyer: 
+@buyer)
+
+   end
+
+end
+
+def print_subscription_invoice(merchant_id)
+
+   buyer = Merchant.find(merchant_id)
+   SubscriptionInvoice(seller, merchant).to_pdf
+
+end
+
+def print_merchant_to_merchant_invoice(buyer_id, seller_id)
+
+   buyer = Merchant.find(buyer_id)
+   seller = Merchant.find(buyer_id)
+   Invoice(seller, buyer).to_pdf  
+
+end
+```
+
+In this implementation, a new SubscriptionInvoice class is created which takes care of constructing the seller object. Thus if we try to reuse Invoice class itself without creating SubscriptionInvoice class, in order to achieve re-usability of code, we have to force fit seller object. Also when we need some change in layout of Subscription invoice, the whole construct will fall apart. Hence we need to DRY looking at the functionality rather than code.
+
+To conclude make sure you DRY your functionalities and not just code, also have a watch at coupling in the code because **DRY with high coupling will make product difficult to maintain and adding new features will become headache.**

@@ -45,6 +45,9 @@ post_topics:
       - date: May 22, 2020
         url: https://medium.com/swlh/understanding-ruby-eigen-class-as-a-java-developer-1dd20d3cd725
         title: Understanding Ruby Eigen class as a Java Developer
+      - date: Jul 05, 2022
+        url: /main/2022-07-05-dry-it-out.html
+        title: DRY it out!
 
   - name: Devops
     posts:
@@ -66,6 +69,9 @@ post_topics:
       - date: May 3, 2018
         url: https://android.jlelse.eu/android-s-srp-535402251c1b
         title: Android S — SOLID
+      - date: Nov 12, 2022
+        url: main/2022-11-12-flutter-clean-architecture.html
+        title: Flutter clean architecture
 
   - name: Software development
     posts:
@@ -75,6 +81,12 @@ post_topics:
       - date: June 22, 2020
         url: /main/2020/06/22/productionalising-the-code.html
         title: Being a well balanced developer - part 2. Embrace Devops.
+      - date: June 30, 2022
+        url: /main/2022-06-30-fix-the-cause-dont-plaster-the-code.html
+        title: Don't plaster the code, fix the cause
+      - date: Aug 03, 2022
+        url: /main/2022-08-08-how-i-brought-prod-down.html
+        title: How I brought donw the prod environment
 
 projects:
   - name: Retail Biddah

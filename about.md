@@ -27,7 +27,7 @@ Strong believer in acquiring knowledge of paradigms instead of languages.
 * Swift
 
 **Frameworks used**:
-* NodeJS
+* NodeJS - NestJS, ExpressJs, ApolloJs
 * Ruby on Rails
 * KrakenD
 * Spring boot
@@ -39,6 +39,7 @@ Strong believer in acquiring knowledge of paradigms instead of languages.
 * iOS development
 
 **Experience**:
+* Mobile lead in HalSimplify (Oct 2022 - Present)
 * Lead developer in Clickapps (Jan 2022 - Present)
 * Senior Fullstack developer in EqualExperts (Sep 2020 - Jan 2022)
 * Senior Backend Developer in Simpl (Jun 2019 - Sep 2020)
